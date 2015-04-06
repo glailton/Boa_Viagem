@@ -34,6 +34,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ed_pass"
-        android:inputType="numberPassword"/>
+        android:inputType="textPassword"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:onClick="loginApp"
+        android:text="@string/entrar"/>
 
 </LinearLayout>
