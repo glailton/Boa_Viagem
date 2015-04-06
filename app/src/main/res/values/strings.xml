@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Boa Viagem</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Login -->
+    <string name="usuario">Login</string>
+    <string name="password">Password</string>
+</resources>
