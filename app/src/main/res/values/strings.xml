@@ -10,4 +10,9 @@
     <string name="entrar">Entrar</string>
     <string name="auth_fail">Usuário ou Senha incorretos!</string>
 
+    <!--DashboardActivity -->
+    <string name="novo_gasto">Novo Gasto</string>
+    <string name="nova_viagem">Nova Viagem</string>
+    <string name="minhas_viagens">Minhas Viagens</string>
+    <string name="configuracoes">Configurações</string>
 </resources>

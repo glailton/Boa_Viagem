@@ -1,6 +1,7 @@
 package br.com.great.boaviagem;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -32,8 +33,9 @@ public class BoaViagemActivity extends Activity {
 
 
         if("great".equals(user) && "lge123".equals(pass)){
-            Toast toast = Toast.makeText(getApplicationContext(), "Usuário e Senha corretos!",Toast.LENGTH_LONG);
-            toast.show();
+          /*  Toast toast = Toast.makeText(getApplicationContext(), "Usuário e Senha corretos!",Toast.LENGTH_LONG);
+            toast.show();*/
+            startActivity(new Intent(this,DashboardActivity.class));
         } else{
             String msgError = getString(R.string.auth_fail);
             Toast toast = Toast.makeText(getApplicationContext(), msgError ,Toast.LENGTH_LONG);
