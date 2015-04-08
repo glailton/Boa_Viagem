@@ -28,5 +28,22 @@
     <string name="quant_de_pessoas">Quantidade de Pessoas</string>
     <string name="salvar">Salvar</string>
 
+    <!--Gasto -->
+    <string name="valor">Valor</string>
+    <string name="data">Data</string>
+    <string name="descricao">Descrição</string>
+    <string name="local">Local</string>
+    <string name="gastei">Gastei!</string>
+    <string name="categoria">Categoria</string>
+
+    <!--Spiner Categpria -->
+    <string-array name="categoria_gasto">
+        <item>Alimentação</item>
+        <item>Combustível</item>
+        <item>Transporte</item>
+        <item>Hospedagem</item>
+        <item>Passeios</item>
+        <item>Outros</item>
+    </string-array>
 
 </resources>
