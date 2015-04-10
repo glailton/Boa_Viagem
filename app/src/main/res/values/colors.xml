@@ -7,5 +7,6 @@
     <color name="categoria_transporte">#0099CC</color>
     <color name="categoria_passeios">#9DF8CC</color>
     <color name="categoria_outros">#ACBFD5</color>
+    <color name="textview_color">#808080</color>
 
 </resources>

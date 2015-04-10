@@ -32,15 +32,15 @@ public class BoaViagemActivity extends Activity {
         Log.d("Tag Name", pass);
 
 
-        if("great".equals(user) && "lge".equals(pass)){
+   //     if("great".equals(user) && "lge".equals(pass)){
           /*  Toast toast = Toast.makeText(getApplicationContext(), "Usuário e Senha corretos!",Toast.LENGTH_LONG);
             toast.show();*/
             startActivity(new Intent(this,DashboardActivity.class));
-        } else{
-            String msgError = getString(R.string.auth_fail);
-            Toast toast = Toast.makeText(getApplicationContext(), msgError ,Toast.LENGTH_LONG);
-            toast.show();
-        }
+    //    } else{
+      //      String msgError = getString(R.string.auth_fail);
+        //    Toast toast = Toast.makeText(getApplicationContext(), msgError ,Toast.LENGTH_LONG);
+          //  toast.show();
+     //   }
     }
 
 

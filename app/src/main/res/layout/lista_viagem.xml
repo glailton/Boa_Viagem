@@ -12,7 +12,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageTipoViagem"/>
+            android:id="@+id/tipoViagem"/>
     </LinearLayout>
 
     <LinearLayout
@@ -24,17 +24,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/listDestino"/>
+            android:id="@+id/destino"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/listData"/>
+            android:id="@+id/data"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/listValor"/>
+            android:id="@+id/valor"/>
 
     </LinearLayout>
 </LinearLayout>

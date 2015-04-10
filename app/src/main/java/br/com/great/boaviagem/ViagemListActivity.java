@@ -27,8 +27,8 @@ public class ViagemListActivity extends ListActivity implements AdapterView.OnIt
         ListView listView = getListView();
         listView.setOnItemClickListener(this);*/
 
-        String[] de = {"imageTipoViagem", "listDestino", "listData", "listValor"};
-        int[] para = {R.id.imageTipoViagem, R.id.listDestino, R.id.listData, R.id.listValor};
+        String[] de = {"imagem", "destino", "data", "total"};
+        int[] para = {R.id.tipoViagem, R.id.destino, R.id.data, R.id.valor};
 
         SimpleAdapter adapter = new SimpleAdapter(this, listarViagens(),
                 R.layout.lista_viagem, de, para);
@@ -38,11 +38,11 @@ public class ViagemListActivity extends ListActivity implements AdapterView.OnIt
     }
 
     private List<Map<String, Object>> listarViagens(){
-        viagens = new ArrayList<Map<String, Object>>();
+        viagens = new ArrayList<Map<String,Object>>();
 
         Map<String,Object> item = new HashMap<String, Object>();
-        item.put("imageTipoViagem", R.drawable.negocios);
-        item.put("listDestino", "São Paulo");
+        item.put("imagem", R.drawable.negocios);
+        item.put("destino", "São Paulo");
         item.put("data","02/02/2012 a 04/02/2012");
         item.put("total","Gasto total R$ 314,98");
         viagens.add(item);
@@ -62,8 +62,8 @@ public class ViagemListActivity extends ListActivity implements AdapterView.OnIt
     @Override
     public void onItemClick(AdapterView<?> parent, View v, int position, long id){
         Map<String, Object> map = viagens.get(position);
-        String destino = (String) map.get("listDestino");
-        String mensagem = "Viagem selecionada: "+ destino;
+        String destino = (String) map.get("destino");
+        String mensagem = "Viagem selecionada: " + destino;
         Toast.makeText(getApplicationContext(), mensagem, Toast.LENGTH_LONG).show();
         startActivity(new Intent(this, GastoListActivity.class));
       /*  TextView textView = (TextView) v;
