@@ -4,12 +4,12 @@
     android:background="#333333"
     android:orientation="vertical">
 
-    <TextView
+<!--    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/app_name"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:textAppearance="?android:attr/textAppearanceLarge"/>-->
 
     <RelativeLayout
         android:layout_width="match_parent"

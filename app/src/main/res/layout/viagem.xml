@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/pichu">
     
     <TableLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -12,24 +13,28 @@
             android:background="#015488"
             android:orientation="vertical">
 
-            <TextView
+       <!--     <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="@string/nova_viagem"
                 android:textAppearance="?android:attr/textAppearance"
-                android:textStyle="bold"/>
+                android:textStyle="bold"/>-->
         </LinearLayout>
 
         <TextView
-            android:text="@string/destino"/>
+            android:text="@string/destino"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/destino"
             android:inputType="text"/>
 
         <TextView
-            android:text="@string/tipo_da_viagem"/>
+            android:text="@string/tipo_da_viagem"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"/>
 
         <RadioGroup
             android:id="@+id/tipoViagem"
@@ -52,10 +57,14 @@
         <TableRow>
             <TextView
                 android:layout_gravity="center"
-                android:text="@string/data_da_chegada"/>
+                android:text="@string/data_da_chegada"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"/>
             <TextView
                 android:layout_gravity="center"
-                android:text="@string/data_da_saida"/>
+                android:text="@string/data_da_saida"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"/>
         </TableRow>
         <TableRow>
             <Button
@@ -69,7 +78,9 @@
         </TableRow>
 
         <TextView
-            android:text="@string/orcamento"/>
+            android:text="@string/orcamento"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/orcamento"
@@ -78,7 +89,9 @@
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
-                android:text="@string/quant_de_pessoas"/>
+                android:text="@string/quant_de_pessoas"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"/>
             <EditText
                 android:id="@+id/quantPessoas"
                 android:inputType="number"/>
