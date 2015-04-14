@@ -50,5 +50,12 @@
     <string name="sair">Sair</string>
     <string name="remover_viagem">Remover Viagem</string>
     <string name="remover_gasto">Remover Gasto</string>
+    <string name="editar">Editar</string>
+    <string name="gastos_realizados">Gastos Realizados</string>
+    <string name="remover">Remover</string>
+    <string name="opcoes">Opções</string>
+    <string name="confirmacao_exclusao_viagem">Deseja Realmente Remover a Viagem?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
 
 </resources>

@@ -36,5 +36,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/valor"/>
 
+        <ProgressBar
+            android:id="@+id/barraProgresso"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"/>
+
     </LinearLayout>
 </LinearLayout>
