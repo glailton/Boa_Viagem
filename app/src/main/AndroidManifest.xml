@@ -30,6 +30,8 @@
         <activity android:name=".ViagemListActivity"
             android:label="@string/minhas_viagens"/>
         <activity android:name=".GastoListActivity"/>
+        <activity android:name=".ConfiguracoesActivity"
+            android:label="@string/configuracoes"/>/>
     </application>
 
 </manifest>
